@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include "print.h"
-
+#include "papoutsa20.h"
 void main(void)
 {
-  print();  
+  print();
+  papoutsa20();  
 }
 
 void print()
 {
-  printf("Hello Isaac and Stellio!");
+  printf("Hello Isaac and Stellio!\n");
 }
